@@ -193,7 +193,7 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
 .play-btn svg { width: 18px; height: 18px; }
 
 /* PARALLAX */
-.parallax-sec { height: 65vh; min-height: 400px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background-image: url('/img/paralax-bg.jpg'); background-attachment: fixed; background-size: cover; background-position: var(--parallax-pos); }
+.parallax-sec { height: 65vh; min-height: 400px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background-image: url('img/paralax-bg.jpg'); background-attachment: fixed; background-size: cover; background-position: var(--parallax-pos); }
 .parallax-bg { display: none; }
 .parallax-overlay { position: absolute; inset: 0; background: rgba(24,8,16,.5); z-index: 1; }
 .parallax-content { position: relative; z-index: 2; text-align: center; padding: 40px; }
@@ -314,7 +314,7 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
 
   /* Parallax mobile — JS-driven via translateY on inner div */
   .parallax-sec { background: none; background-attachment: scroll; }
-  .parallax-bg { display: block; position: absolute; top: -50%; left: 0; right: 0; bottom: -50%; background-image: url('/img/paralax-bg.jpg'); background-size: cover; background-position: var(--parallax-pos); }
+  .parallax-bg { display: block; position: absolute; top: -50%; left: 0; right: 0; bottom: -50%; background-image: url('img/paralax-bg.jpg'); background-size: cover; background-position: var(--parallax-pos); }
 
 
   /* Bucket */
