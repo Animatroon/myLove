@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>❤️ Моей любимой</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section id="hero" class="hero">
+  <div class="hero-l">
+    <p class="hero-kicker">мой любимый человек</p>
+    <h1 class="hero-name">Асем</h1>
+    <p class="hero-tagline">Эта страница — для тебя. Каждая строка здесь про то, что ты для меня значишь.</p>
+    <button class="hero-btn" id="heroArrow" aria-label="Вниз">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+  </div>
+  <div class="hero-r">
+    <img src="img/hero-bg2.jpg" alt="Она">
+  </div>
+</section>
+
+<section id="storia" class="storia">
+  <div class="storia-card" style="--ci:1;--bg:#fff">
+    <div class="storia-inner">
+      <div class="storia-text-col">
+        <p class="storia-date">Июль 2025</p>
+        <h2 class="storia-title">Мы познакомились</h2>
+        <p class="storia-body">Тот момент, когда всё изменилось. Я ещё не знал, что это начало самого важного, что случалось со мной. И тот я наверняка не знал, что это будет начало самого счастливого периода моей жизни.</p>
+      </div>
+      <div class="storia-num-col" aria-hidden="true">
+        <svg class="storia-icon" viewBox="0 0 120 100" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M60 82 C60 82 16 56 16 30 C16 18 24 10 36 10 C44 10 53 16 60 27 C67 16 76 10 84 10 C96 10 104 18 104 30 C104 56 60 82 60 82Z"/>
+          <line x1="8" y1="12" x2="4" y2="6"/><line x1="5" y1="20" x2="0" y2="18"/>
+          <line x1="112" y1="12" x2="116" y2="6"/><line x1="115" y1="20" x2="120" y2="18"/>
+          <line x1="60" y1="4" x2="60" y2="0"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="storia-card" style="--ci:2;--bg:rgba(254,206,193,0.18)">
+    <div class="storia-inner">
+      <div class="storia-text-col">
+        <p class="storia-date">Август 2025</p>
+        <h2 class="storia-title">До самого утра</h2>
+        <p class="storia-body">Мы гуляли с вечера до рассвета — и не замечали времени. Улицы, фонари, тихие разговоры обо всём. Я не хотел, чтобы эти ночи заканчивались. С тобой даже темнота казалась тёплой.</p>
+      </div>
+      <div class="storia-num-col" aria-hidden="true">
+        <svg class="storia-icon" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="60" cy="68" r="38"/>
+          <line x1="60" y1="68" x2="60" y2="40"/>
+          <line x1="60" y1="68" x2="40" y2="80"/>
+          <circle cx="60" cy="68" r="3" fill="currentColor" stroke="none"/>
+          <circle cx="22" cy="22" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="98" cy="16" r="2.5" fill="currentColor" stroke="none"/>
+          <circle cx="110" cy="34" r="2" fill="currentColor" stroke="none"/>
+          <circle cx="14" cy="44" r="2" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="storia-card" style="--ci:3;--bg:#fff">
+    <div class="storia-inner">
+      <div class="storia-text-col">
+        <p class="storia-date">Январь 2026</p>
+        <h2 class="storia-title">Ты прилетела ко мне</h2>
+        <p class="storia-body">После расстояния, после всего пережитого — ты прилетела. И когда мы снова оказались рядом, всё остальное перестало существовать. Мы просто забылись друг в друге, и больше ничего не нужно было.</p>
+      </div>
+      <div class="storia-num-col" aria-hidden="true">
+        <svg class="storia-icon" viewBox="0 0 512 512" fill="currentColor" stroke="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M510.338,141.484c-2.918-7.697-9.353-13.517-17.289-15.65c-8.201-2.202-81.596-20.617-133.564,9.412c-12.698,7.339-36.19,23.066-71.663,47.974L80.701,127.669c-6.554-1.758-13.534-0.836-19.405,2.56l-22.144,12.8c-8.047,4.651-12.945,13.312-12.783,22.622c0.162,9.301,5.359,17.792,13.568,22.161l138.257,73.574c-23.356,16.41-46.106,32.068-59.904,41.515l-62.037-36.523c-7.936-4.676-17.775-4.71-25.754-0.102l-17.715,10.24c-7.262,4.198-12.006,11.699-12.698,20.062c-0.691,8.371,2.765,16.538,9.242,21.879l84.369,69.478c4.983,4.104,11.332,6.17,17.775,5.786l57.079-3.43c3.959-0.239,7.817-1.399,11.255-3.379l243.61-140.8c48.956-28.297,82.935-79.275,84.352-81.434C512.3,157.809,513.256,149.181,510.338,141.484z M410.626,223.933c-44.297,25.6-243.61,140.8-243.61,140.8l-57.079,3.43l-84.369-69.478l17.715-10.24l76.006,44.749c0,0,61.047-41.438,107.469-74.957L51.944,165.198l22.144-12.8l218.667,58.658c34.159-24.115,64.76-45.107,79.514-53.632c44.297-25.6,114.159-6.861,114.159-6.861S454.922,198.333,410.626,223.933z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="storia-card" style="--ci:4;--bg:rgba(254,206,193,0.18)">
+    <div class="storia-inner">
+      <div class="storia-text-col">
+        <p class="storia-date">Март 2026</p>
+        <h2 class="storia-title">Туда, где ты</h2>
+        <p class="storia-body">Некоторые моменты остаются навсегда. Твой день рождения — один из них. Я прилетел к тебе, и мы встретили его вместе. Не было ничего лишнего — только ты, только рядом, только счастье, которое сложно объяснить словами, но невозможно забыть.</p>
+      </div>
+      <div class="storia-num-col" aria-hidden="true">
+        <svg class="storia-icon" viewBox="0 0 100 140" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="38" y="72" width="24" height="54" rx="4"/>
+          <line x1="50" y1="72" x2="50" y2="60"/>
+          <path d="M50 24 C44 32 40 42 42 52 C43 58 46 62 50 62 C54 62 57 58 58 52 C60 42 56 32 50 24Z"/>
+          <path d="M50 34 C48 38 46 44 47 49 C48 52 49 54 50 54" stroke-width="1.5" opacity="0.6"/>
+          <line x1="26" y1="40" x2="18" y2="34" stroke-width="1.5"/>
+          <line x1="74" y1="40" x2="82" y2="34" stroke-width="1.5"/>
+          <line x1="18" y1="52" x2="10" y2="52" stroke-width="1.5"/>
+          <line x1="82" y1="52" x2="90" y2="52" stroke-width="1.5"/>
+          <line x1="50" y1="14" x2="50" y2="8" stroke-width="1.5"/>
+          <line x1="32" y1="24" x2="26" y2="18" stroke-width="1.5"/>
+          <line x1="68" y1="24" x2="74" y2="18" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="storia-card" style="--ci:5;--bg:#fff">
+    <div class="storia-inner">
+      <div class="storia-text-col">
+        <p class="storia-date">Сегодня</p>
+        <h2 class="storia-title">Мы до сих пор вместе</h2>
+        <p class="storia-body">И это только начало. Каждый день с тобой — это что-то новое, что-то тёплое, что-то моё. Я не представляю эти дни без тебя.</p>
+      </div>
+      <div class="storia-num-col" aria-hidden="true">
+        <svg class="storia-icon" viewBox="0 0 160 110" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M40 78 A40 40 0 0 1 120 78"/>
+          <line x1="10" y1="78" x2="150" y2="78"/>
+          <line x1="80" y1="22" x2="80" y2="12"/>
+          <line x1="112" y1="32" x2="118" y2="24"/>
+          <line x1="48" y1="32" x2="42" y2="24"/>
+          <line x1="126" y1="58" x2="136" y2="54"/>
+          <line x1="34" y1="58" x2="24" y2="54"/>
+          <line x1="18" y1="90" x2="36" y2="90" stroke-width="1.5"/>
+          <line x1="124" y1="90" x2="142" y2="90" stroke-width="1.5"/>
+          <line x1="62" y1="96" x2="70" y2="96" stroke-width="1.5"/>
+          <line x1="90" y1="96" x2="98" y2="96" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reasons" class="reasons">
+  <div class="sec-pad">
+    <p class="label reveal">только для тебя</p>
+    <h2 class="s-title reveal d1">Причины любить тебя</h2>
+    <p class="s-sub reveal d2">Нажми на карточку, чтобы узнать</p>
+    <div class="reasons-grid">
+      <div class="flip-card reveal"><div class="flip-inner"><div class="flip-front"><span class="flip-num">01</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За твою улыбку — искреннюю и естественную, которая делает тебя ещё красивее. Она не просто украшает твоё лицо, она говорит о том, что ты счастлива, и это делает счастливым и меня.</p></div></div></div>
+      <div class="flip-card reveal d1"><div class="flip-inner"><div class="flip-front"><span class="flip-num">02</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, что ты смеёшься вместе со мной — честно и открыто, не боясь показать свой юмор и веселье. За то, что мы можем найти смешное в самых простых мелочах.</p></div></div></div>
+      <div class="flip-card reveal d2"><div class="flip-inner"><div class="flip-front"><span class="flip-num">03</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, как твоё тело рядом со мной становится моей любимой подушкой. За то, что я могу касаться тебя просто так, без причины, и это заполняет меня спокойствием.</p></div></div></div>
+      <div class="flip-card reveal d3"><div class="flip-inner"><div class="flip-front"><span class="flip-num">04</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За твою игривость и то, что ты можешь полностью открыться передо мной, быть собой без масок и притворства. За то, что рядом со мной ты не боишься быть уязвимой и настоящей.</p></div></div></div>
+      <div class="flip-card reveal"><div class="flip-inner"><div class="flip-front"><span class="flip-num">05</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, как ты вдохновляешь меня на большие и маленькие подвиги, за твою способность находить красоту в обыденном и верить в лучшее даже в сложные времена.</p></div></div></div>
+      <div class="flip-card reveal d1"><div class="flip-inner"><div class="flip-front"><span class="flip-num">06</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, что ты постоянно стремишься стать лучше — в делах, в общении, в отношении к себе и окружающим. Это вдохновляет меня расти вместе с тобой.</p></div></div></div>
+      <div class="flip-card reveal d2"><div class="flip-inner"><div class="flip-front"><span class="flip-num">07</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За твой взгляд, который останавливает меня с первого взгляда. В твоих глазах я вижу всё, что мне нужно — понимание, желание и то, что ты хочешь быть именно со мной.</p></div></div></div>
+      <div class="flip-card reveal d3"><div class="flip-inner"><div class="flip-front"><span class="flip-num">08</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, как ты помогаешь мне видеть мир иначе, замечать детали, которые я пропускал. Рядом с тобой я становлюсь более эмоционально открытым и осознанным.</p></div></div></div>
+      <div class="flip-card reveal"><div class="flip-inner"><div class="flip-front"><span class="flip-num">09</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, как мне хочется спать в твоих объятиях каждую ночь. За ощущение полной безопасности и умиротворения, которое приходит, когда я прижимаю тебя к себе и чувствую, что ничего больше не нужно.</p></div></div></div>
+      <div class="flip-card reveal d1"><div class="flip-inner"><div class="flip-front"><span class="flip-num">10</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, как ты поддерживаешь меня в самые трудные минуты. За то, что ты остаёшься рядом, даже когда я сам не знаю, как помочь себе</p></div></div></div>
+      <div class="flip-card reveal d2"><div class="flip-inner"><div class="flip-front"><span class="flip-num">11</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За твою внешность, за то, как ты выглядишь — в простой футболке или в платье, утром или вечером. За то, что я просто люблю смотреть на тебя и не могу насмотреться.</p></div></div></div>
+      <div class="flip-card reveal d3"><div class="flip-inner"><div class="flip-front"><span class="flip-num">12</span><div class="flip-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>узнать</span></div></div><div class="flip-back"><p class="flip-reason">За то, что ты просто есть в моей жизни, за то, что с каждым днём я люблю тебя сильнее, чем вчера</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="sec-pad">
+    <p class="label reveal">она такая</p>
+    <h2 class="s-title reveal d1">Всё о ней</h2>
+    <p class="s-sub reveal d2">То, что я знаю хорошо</p>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+        <p class="about-lbl">Любимая музыка</p>
+        <p class="about-val">Песни Кайрата Нуртаса</p>
+      </div>
+      <div class="about-card reveal d1">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg></div>
+        <p class="about-lbl">Любимый фильм</p>
+        <p class="about-val">Операция "Ы"</p>
+      </div>
+      <div class="about-card reveal d2">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
+        <p class="about-lbl">Любимая еда</p>
+        <p class="about-val">Плов</p>
+      </div>
+      <div class="about-card reveal d1">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <p class="about-lbl">Любимое место</p>
+        <p class="about-val">Актау (рядом со мной)</p>
+      </div>
+      <div class="about-card reveal d2">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="about-lbl">Главная мечта</p>
+        <p class="about-val">Путешествовать по миру</p>
+      </div>
+      <div class="about-card reveal d3">
+        <div class="about-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <p class="about-lbl">Любимая книга</p>
+        <p class="about-val">Женские секреты</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timer" class="timer-sec">
+  <div class="sec-pad timer-center">
+    <p class="label reveal" style="color:rgba(255,255,255,.6)">считаю каждую секунду</p>
+    <h2 class="s-title reveal d1" style="color:#fff">Счётчик любви</h2>
+    <p class="s-sub reveal d2" style="color:rgba(255,255,255,.65)">С того момента, как ты стала моей</p>
+    <div class="timer-display reveal d3">
+      <div class="timer-unit">
+        <div class="timer-digits"><span class="timer-digit" id="td">000</span></div>
+        <span class="timer-lbl">дней</span>
+      </div>
+      <span class="timer-colon">:</span>
+      <div class="timer-unit">
+        <div class="timer-digits"><span class="timer-digit" id="th">00</span></div>
+        <span class="timer-lbl">часов</span>
+      </div>
+      <span class="timer-colon">:</span>
+      <div class="timer-unit">
+        <div class="timer-digits"><span class="timer-digit" id="tm">00</span></div>
+        <span class="timer-lbl">минут</span>
+      </div>
+      <span class="timer-colon">:</span>
+      <div class="timer-unit">
+        <div class="timer-digits"><span class="timer-digit" id="ts">00</span></div>
+        <span class="timer-lbl">секунд</span>
+      </div>
+    </div>
+    <p class="timer-msg reveal d4">и каждая секунда — бесценна</p>
+  </div>
+</section>
+
+<section id="places" class="places">
+  <div class="sec-pad">
+    <p class="label reveal">только наши</p>
+    <h2 class="s-title reveal d1">Наши места</h2>
+    <p class="s-sub reveal d2">Места, которые навсегда останутся нашими</p>
+  </div>
+  <div class="places-list">
+    <div class="place-item reveal">
+      <div class="place-img"><img src="/img/place-1.jpg" alt="Кафе"></div>
+      <div class="place-content">
+        <p class="place-n">01</p>
+        <h3 class="place-name">Место, где мы познакомились</h3>
+        <p class="place-text">Здесь всё началось. Обычный день, обычное место — и вдруг ты. Кто бы знал что даст нам эта втреча. Я иногда мысленно возвращаюсь в тот день.</p>
+      </div>
+    </div>
+    <div class="place-item place-item-rev reveal">
+      <div class="place-img"><img src="/img/place-2.jpg" alt="Первое свидание"></div>
+      <div class="place-content">
+        <p class="place-n">02</p>
+        <h3 class="place-name">Место первого свидания</h3>
+        <p class="place-text">Мы шли за рамен без особых планов. Просто захотелось поесть и быть рядом. Теперь каждый раз, проходя мимо того места, я вспоминаю этот момент спонтанности который дал нам начало.</p>
+      </div>
+    </div>
+    <div class="place-item reveal">
+      <div class="place-img"><img src="/img/place-3.jpg" alt="Парк"></div>
+      <div class="place-content">
+        <p class="place-n">03</p>
+        <h3 class="place-name">Наш любимый киновечер</h3>
+        <p class="place-text">Наконец-то мы решились выйти из дома и быть вместе, как нормальные люди. Кино казалось идеальным поводом. После фильма мы гуляли по улицам, и вдруг начал идти снег. Он падал медленно, тихо, и казалось, что город знал что мы выйдем в тот день.</p>
+      </div>
+    </div>
+    <div class="place-item place-item-rev reveal">
+      <div class="place-img"><img src="/img/place-4.jpg" alt="Поездка"></div>
+      <div class="place-content">
+        <p class="place-n">04</p>
+        <h3 class="place-name">Первая встреча после расстояния</h3>
+        <p class="place-text">Месяцы ожидания закончились в момент, когда я увидел тебя в аэропорту. Ты прилетела ко мне в Алматы, и эти дни казались
+        нереальными — наконец мы были рядом, а не за экранами. Но время пролетело слишком быстро. Когда ты улетала обратно, я понял, что расстояние теперь будет казаться намного дальше.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="playlist" class="playlist">
+  <div class="sec-pad playlist-inner">
+    <div>
+      <p class="label reveal" style="color:rgba(254,206,193,.6)">только для нас</p>
+      <h2 class="s-title reveal d1" style="color:#fff">Наш плейлист</h2>
+      <p class="s-sub reveal d2" style="color:rgba(255,255,255,.5)"></p>
+    </div>
+    <div class="player reveal d2">
+      <audio id="audio" preload="none">
+        <source src="/img/Frank Sativa - THAT'S MY GIRL.mp3" type="audio/mpeg">
+      </audio>
+      <div class="player-track">
+        <div class="player-art">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div class="player-info">
+          <p class="player-song">THAT'S MY GIRL</p>
+          <p class="player-artist">Frank Sativa</p>
+        </div>
+      </div>
+      <div class="player-progress">
+        <div class="progress-bar" id="progressBar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="player-times">
+          <span id="currentTime">0:00</span>
+          <span id="duration">0:00</span>
+        </div>
+      </div>
+      <div class="player-controls">
+        <button class="player-btn" id="btnPrev" aria-label="Назад">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+        </button>
+        <button class="player-btn play-btn" id="btnPlay" aria-label="Воспроизвести">
+          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+        </button>
+        <button class="player-btn" id="btnNext" aria-label="Вперёд">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="parallax-sec" id="parallax">
+  <div class="parallax-bg" id="parallaxBg"></div>
+  <div class="parallax-overlay"></div>
+  <div class="parallax-content reveal">
+    <p class="parallax-quote">«Рядом с тобой я становлюсь самым счасливым — и именно этого я хочу на всю жизнь»</p>
+  </div>
+</div>
+
+<section id="letter" class="letter">
+  <div class="sec-pad">
+    <div class="letter-inner">
+      <p class="label reveal" style="text-align:center">только для тебя</p>
+      <h2 class="s-title reveal d1" style="text-align:center;margin-bottom:52px">Письмо для тебя</h2>
+      <p class="letter-text reveal d2">
+        Есть вещи, которые сложно сказать вслух, но которые живут внутри и требуют выхода. Ты — одна из таких вещей. Ты стала частью моего дня раньше, чем я это заметил: утром я думаю о тебе, ночью — тоже. Я не умею красиво говорить, но я умею чувствовать. И всё, что я чувствую рядом с тобой — это тепло, спокойствие и ощущение, что всё на своём месте.<br><br>
+        Ты не просто моя девушка — ты мой человек. Тот, с кем я хочу делиться самым обычным и самым важным. Тот, рядом с кем мне не нужно ничего притворяться. Я не знаю, что нас ждёт впереди, но я знаю одно — я хочу, чтобы ты была рядом.<br><br>
+        Спасибо за то, что ты есть. За каждый момент, каждый смех, каждое молчание рядом. Ты делаешь мою жизнь лучше — просто тем, что существуешь.
+      </p>
+      <p class="letter-sign reveal d3">— с любовью, твой любимый</p>
+    </div>
+  </div>
+</section>
+
+<section id="bucket" class="bucket">
+  <div class="sec-pad">
+    <p class="label reveal">что впереди</p>
+    <h2 class="s-title reveal d1">Наш wishlist</h2>
+    <p class="s-sub reveal d2">Что мы хотим сделать вместе</p>
+    <ul class="bucket-list reveal d3" id="bucketList">
+      <li class="bucket-item done done-locked"><span class="bucket-n">01</span><button class="bucket-check" disabled aria-label="Выполнено"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Вместе отменить наше день рождения</span></li>
+      <li class="bucket-item done done-locked"><span class="bucket-n">02</span><button class="bucket-check" disabled aria-label="Выполнено"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Пережить кризис отношений</span></li>
+      <li class="bucket-item"><span class="bucket-n">03</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Купить вместе парные вещи</span></li>
+      <li class="bucket-item"><span class="bucket-n">04</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Целоваться под дождём</span></li>
+      <li class="bucket-item"><span class="bucket-n">05</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Устроить романтический ужин дома</span></li>
+      <li class="bucket-item"><span class="bucket-n">06</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Вместе поступить за границей</span></li>
+      <li class="bucket-item"><span class="bucket-n">07</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Станцевать вдвоём без повода</span></li>
+      <li class="bucket-item"><span class="bucket-n">08</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Провести вместе время больше месяца в одном городе</span></li>
+      <li class="bucket-item"><span class="bucket-n">09</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Снять квартиру в Алматы на неделю</span></li>
+      <li class="bucket-item"><span class="bucket-n">10</span><button class="bucket-check" aria-label="Отметить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button><span class="bucket-text">Собрать деньги и поехать в Турцию</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="memories" class="memories">
+  <div class="sec-pad">
+    <p class="label reveal">то, что осталось</p>
+    <h2 class="s-title reveal d1">Воспоминания</h2>
+    <p class="s-sub reveal d2">Моменты, которые я храню</p>
+    <div class="mem-grid">
+      <div class="mem-card mem-large reveal">
+        <div class="mem-quote-mark">"</div>
+        <p class="mem-q">У неё были сложные дни, и ей невероятно хотелось баклажанового салата. Ночью, после полуночи, мы искали ресторан, мороз на улице, но не сдавались. Когда мы наконец нашли и купили его, она ела с таким кайфом — и я понял, что это был именно тот момент, когда она почувствовала себя лучше, не от того что поела салат, а от того что твое желание тогда исполнилось
+          </p>
+        <p class="mem-date">Январь 2026</p>
+      </div>
+      <div class="mem-card reveal d1">
+        <div class="mem-quote-mark">"</div>
+        <p class="mem-q">В тот вечер в кино мы забыли про фильм на экране. Фокусировались только на друг друге — целовались, обнимались, касались. Казалось, что время остановилось, и больше ничего не имело значения, кроме тебя рядом.</p>
+        <p class="mem-date">Август 2025</p>
+      </div>
+      <div class="mem-card reveal d2">
+        <div class="mem-quote-mark">"</div>
+        <p class="mem-q">В те моменты осталась на две недели. Мы готовили вместе на кухне, танцевали под музыку, смотрели фильмы, прижимаясь друг к другу. Это были самые тёплые дни — не потому, что происходило что-то особенное, а потому что ты была рядом.</p>
+        <p class="mem-date">Январь 2026</p>
+      </div>
+      <div class="mem-card mem-accent reveal d3">
+        <div class="mem-quote-mark">"</div>
+        <p class="mem-q">Ты играла со мной, втягивая губы, и я уже не мог себя сдерживать. Когда я наконец поцеловал тебя, остался только этот момент — твои губы, твоё дыхание, и больше ничего не имело значения.</p>
+        <p class="mem-date">Август 2025</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="gallery-header">
+    <p class="label reveal">наши фото</p>
+    <h2 class="s-title reveal d1">Галерея</h2>
+    <p class="s-sub reveal d2">Небольшой альбом про нас</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gimg"><img src="/img/galery-1.jpg" alt="1" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-2.jpg" alt="2" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-3.jpg" alt="3" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-4.jpg" alt="4" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-5.jpg" alt="5" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-6.jpg" alt="6" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-7.jpg" alt="7" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-8.jpg" alt="8" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-9.jpg" alt="9" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-10.jpg" alt="10" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-11.jpg" alt="11" loading="lazy"></div>
+    <div class="gimg"><img src="/img/galery-12.jpg" alt="12" loading="lazy"></div>
+  </div>
+</section>
+
+<section id="final" class="final">
+  <div class="final-glow"></div>
+  <div class="final-inner">
+    <div class="final-heart reveal">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    </div>
+    <h2 class="final-phrase reveal d1">Ты — лучшее,<br>что со мной случилось</h2>
+    <p class="final-date reveal d2">30 апреля 2026</p>
+    <p class="final-credit reveal d3">сделано с любовью для тебя</p>
+  </div>
+</section>
+
+<div id="gmodal" class="gmodal" role="dialog" aria-modal="true" aria-label="Просмотр фото">
+  <div class="gmodal-backdrop"></div>
+  <div class="gmodal-wrap">
+    <button class="gmodal-close" id="gmodalClose" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <img id="gmodalImg" src="" alt="">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
